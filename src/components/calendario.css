@@ -1,4 +1,3 @@
-/* Estilos para o calendário */
 .calendario-container {
     margin: 0 auto;
     width: 90.8vh;
@@ -37,18 +36,15 @@
     color: white;
 }
 
-/* Estilos para o contêiner do formulário */
 .formulario-container {
     position: relative;
     display: flex;
-    left: 110px;
+    left: 140px;
     max-width: 100%; 
     margin: 0 auto;
     padding: 0.5em;
   }
   
-  
-/* Estilos para o formulário */
 .popover-form {
     position: relative;
     width: 30vh;
@@ -79,7 +75,6 @@
 
 .popover__input {
     position: relative;
-    display: flex;
     width: 10em;
     margin: 0.5em;
     cursor: text;
@@ -87,46 +82,49 @@
 
 .popover__button {
     position: relative;
-    display: flex;
-    left: 280px;
+    left: 275px;
     cursor: pointer;
 }
 
 /* Estilos para dispositivos de tamanho maior que o iPhone 14 Pro Max */
 @media (min-width: 428px) {
     .calendario-container {
-      width: 90.8vh; /* Ajuste conforme necessário */
+      width: 90.8vh;
     }
 
     .formulario-container {
         width: 90vh;
         max-width: 400px;
         display: flex;
+        margin-left: 200px;
         flex-direction: column;
         align-items: center;
     }
 
     .popover__input-title,
     .popover__input-descricao{
+        position: relative;
         width: 90%;
         max-width: 300px;
-        left: -3px;
+        margin-left: 11px;
     }
 
     .popover__input {
+        position: relative;
         width: 90%;
         max-width: 300px;
-        left: 3px;
+        margin-left: 4px;
     }
 
     .popover-form {
-        padding: 1em; /* ou outro valor desejado */
+        padding: 1em;
     }
     
     .popover__button {
         position: relative;
         display: flex;
-        left: 180px;
+        margin-left: -88px;
+        margin-top: 0.5em;
         cursor: pointer;
     }
 
@@ -136,6 +134,41 @@
   @media (max-width: 428px) {
     .calendario-container {
         width: 85vh; /* Ajuste conforme necessário */
+    }
+    .formulario-container {
+        width: 90vh;
+        max-width: 400px;
+        display: flex;
+        margin-left: 200px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popover__input-title,
+    .popover__input-descricao{
+        position: relative;
+        width: 90%;
+        max-width: 300px;
+        margin-left: 11px;
+    }
+
+    .popover__input {
+        position: relative;
+        width: 90%;
+        max-width: 300px;
+        margin-left: 4px;
+    }
+
+    .popover-form {
+        padding: 1em;
+    }
+    
+    .popover__button {
+        position: relative;
+        display: flex;
+        margin-left: -88px;
+        margin-top: 0.5em;
+        cursor: pointer;
     }
   }
   
