@@ -1,0 +1,93 @@
+/* Estilos para o calendário */
+.calendario-container {
+    margin: 0 auto;
+    width: 90.8vh;
+    
+}
+
+.fc-daygrid-day {
+    width: 10vh;
+    height: 10vh; 
+  }
+  
+
+.cell-content {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border-radius: 1px;
+    padding: 5px;
+  }
+  
+.summary {
+    position: relative;
+    padding: 0em 0em 0em 0.5em;
+    color: white;
+    background-color: #2C3E50;
+    font-weight: 500;    
+}
+
+.summary:hover {
+    background-color: #34495e;
+    transition: background-color 0.3s ease;
+}
+
+.popover__label  {
+    color: white;
+}
+
+/* Estilos para o contêiner do formulário */
+.formulario-container {
+    position: relative;
+    display: flex;
+    left: 250px;
+    max-width: 70vh; 
+    margin: 0 auto;
+    padding: 0.5em;
+  }
+  
+  
+/* Estilos para o formulário */
+.popover-form {
+    position: relative;
+    width: 30vh;
+    right: 391px;
+    padding: 0.5em;
+    background-color: #34495e;
+}
+
+.popover__input-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 21.8em;
+    right: 10px;
+    margin: 1em;
+    cursor: text;
+}
+
+.popover__input-descricao {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 21.8em;
+    right: 10px;
+    margin: 1em;
+    cursor: text;
+}
+
+.popover__input {
+    position: relative;
+    display: flex;
+    width: 10em;
+    margin: 0.5em;
+    cursor: text;
+}
+
+.popover__button {
+    position: relative;
+    display: flex;
+    left: 280px;
+    cursor: pointer;
+}
