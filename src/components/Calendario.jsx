@@ -49,7 +49,7 @@ function Calendario() {
     const formData = new FormData(event.target);
     const newEvent = {
       title: formData.get("title"),
-      description: formData.get("description"), // Adiciona a descrição ao evento
+      description: formData.get("description"), 
       start: formData.get("start"),
       end: formData.get("end"),
     };
@@ -68,7 +68,6 @@ function Calendario() {
     if (description) {
       info.el.setAttribute("data-bs-content", description);
   
-      // Verifica se já existe uma instância do popover
       let popover = bootstrap.Popover.getInstance(info.el);
       if (!popover) {
         popover = new bootstrap.Popover(info.el, {

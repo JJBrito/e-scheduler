@@ -1,3 +1,51 @@
+# Documentação do Projeto E-Scheduler
+
+# Estrutura de Diretórios e Arquivos
+
+O projeto E-Scheduler é uma aplicação de calendário interativo desenvolvida com React, utilizando a biblioteca FullCalendar para renderização dos eventos. A seguir, apresentamos a estrutura de diretórios e arquivos chave do projeto, acompanhados de uma breve descrição de sua finalidade e conteúdo.
+
+# Raiz do Projeto
+
+`package.json:` Arquivo de configuração do Node.js, definindo nome, versão, dependências, scripts e configurações de lint para o projeto.
+
+# Pasta calendario
+
+### Pasta public
+
+`index.html:` Arquivo HTML principal que serve como ponto de entrada para a aplicação web. Define a estrutura básica da página e o ponto de montagem do React (div#root).
+
+# Pasta src
+
+### Arquivos Principais
+
+`App.js:` Componente React principal que encapsula o componente do calendário.
+
+`index.js:` Ponto de entrada do React, responsável por renderizar o aplicativo no DOM.
+
+# Pasta components
+
+`Calendario.jsx:` Componente React que implementa o calendário utilizando FullCalendar. Inclui manipulação de eventos e formulário para adicionar novos eventos ao calendário.
+
+`index.css:` Arquivo CSS global, incluindo estilos específicos para popovers e outros elementos de interface.
+
+`calendario.css:` Arquivo CSS dedicado ao estilo e layout do componente Calendário, incluindo responsividade e customização de elementos do 
+FullCalendar.
+
+# Estrutura e Funcionalidade
+
+O projeto utiliza React para construir uma interface de usuário dinâmica e interativa. A aplicação principal (App.js) integra o componente Calendario, que por sua vez utiliza a biblioteca FullCalendar para renderizar um calendário interativo.
+
+O arquivo index.html na pasta public define a estrutura básica da página, incluindo o elemento div#root onde o React irá montar o componente principal da aplicação.
+
+O componente Calendario (Calendario.jsx) é onde a lógica principal da aplicação reside. Este componente faz uso de diversos plugins do FullCalendar para fornecer funcionalidades como visualização mensal, semanal e diária, além de permitir a interação do usuário com o calendário (por exemplo, adição de eventos).
+
+Os estilos específicos do calendário e dos componentes de interface do usuário estão definidos em index.css e calendario.css. Estes arquivos CSS são responsáveis por ajustar o layout e a aparência dos elementos do calendário e dos formulários de interação, garantindo uma experiência de usuário coesa e visualmente agradável.
+
+# Conclusão
+
+A estrutura de diretórios e arquivos do Projeto E-Scheduler é projetada para organizar de forma clara e eficiente os recursos e a lógica da aplicação. A separação em componentes, juntamente com uma gestão cuidadosa das dependências e estilos, facilita a manutenção e a expansão futuras do projeto.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
